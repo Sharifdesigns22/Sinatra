@@ -1,0 +1,20 @@
+<% if Helpers.is_logged_in?(session) %>
+Attendance  <%= @error %>
+
+  <form action='/attendance' method="post">
+    <br>
+    Log student first and last name: 
+    <input type="text" name="content">
+    <br>
+    
+    <br>
+
+    <input type="submit" name="submit" id="submit">
+
+    <br>
+
+  </form>
+
+<% else %>
+      <h1> You Must Be Logged in mark yourself present </h1>
+<% end %>

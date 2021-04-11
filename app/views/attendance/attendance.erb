@@ -1,0 +1,7 @@
+<h1>Welcome to class, here is your attendance history log!</h1>
+
+<% Attendance.all.each do |a| %>
+    <li>
+    <a href="/attendance/<%=a.id%>"> <%= a.content %> </a>
+    </li>
+<% end %>

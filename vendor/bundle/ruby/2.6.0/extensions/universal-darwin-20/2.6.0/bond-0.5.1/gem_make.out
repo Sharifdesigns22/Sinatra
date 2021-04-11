@@ -1,0 +1,16 @@
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/bond-0.5.1/ext/readline_line_buffer
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210330-69191-ptvs1a.rb extconf.rb
+
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR="
+echo "This is a dummy extension"
+This is a dummy extension
+
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" install
+echo "This is a dummy extension"
+This is a dummy extension

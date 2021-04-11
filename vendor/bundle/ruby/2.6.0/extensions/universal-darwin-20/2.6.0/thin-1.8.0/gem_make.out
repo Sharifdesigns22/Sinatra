@@ -1,0 +1,21 @@
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210330-69191-1ghu9py.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+make "DESTDIR=" clean
+
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+make "DESTDIR="
+compiling parser.c
+compiling thin.c
+linking shared-object thin_parser.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file parser.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file thin.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+
+current directory: /Users/shariftarver/Desktop/Software.eng/FlatironSchool/code/Mod2/development/attendance/vendor/bundle/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 thin_parser.bundle ./.gem.20210330-69191-1m629mu

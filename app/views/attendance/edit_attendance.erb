@@ -1,0 +1,14 @@
+<form action= "/attendance/<%=@attendance.id%>/edit" method="post">
+    <input id="hidden" type="hidden" name="_method" value="patch">
+
+    <label for="attendance"> Edit attendance</label>
+    <br>
+    <br>
+    <input type="text" name="updated_content" id="content" value="<%=@attendance.content%>"> 
+    <input type="submit" name="submit" id="submit">
+
+    <br>
+    <br>
+
+    <a href= "/attendance">Attendance</a>
+</form> 

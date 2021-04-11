@@ -1,0 +1,13 @@
+<h2><%=@attendance.content%></h2>
+<br>
+
+<a href="/attendance/<%=@attendance.id%>/edit"> Click here to edit </a>
+<br>
+<br>
+<br>
+
+<form action= "/attendance/<%=@attendance.id%>/delete" method="post">
+<input id="hidden" type="hidden" name="_method" value="delete">
+<input type="submit" value="Delete Attendance">
+
+</form>
