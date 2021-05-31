@@ -1,2 +1,2 @@
 # Sinatra
-Sinatra-MVC
+Sinatra-MVC app with CRUD functionality
